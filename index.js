@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const scroller = new Scroller('#root');
 
-    document.addEventListener('mousewheel', (event) => {
+    document.addEventListener('wheel', (event) => {
         scroller.listenScroll(event);
     })
 
