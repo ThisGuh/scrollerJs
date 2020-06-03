@@ -5,5 +5,6 @@ document.addEventListener('DOMContentLoaded', () => {
         scroller.listenScroll(event);
     })
 
-
+    document.addEventListener('swipeUp', () => scroller.scroll(1))
+    document.addEventListener('swipeDown', () => scroller.scroll(-1))
 })
